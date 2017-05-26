@@ -95,22 +95,20 @@ ll prim()
 
 int main()
 {
-    O_o();
-	
-   		fll(vis,0);
-   		ll x,y;
-   		cin>>x>>y;
-   		adj.clear();
-   		adj.resize(x+5);
-   		//ll sum=0;
-   		while(y--)
-   		{
-   			ll a,b,c;
-   			cin>>a>>b>>c;
-   			adj[a].pb({c,b});
-   			adj[b].pb({c,a});
-   		}
-    cout<<prim()<<endl;
-   	
+	O_o();
+  fll(vis,0);
+  ll x,y;
+  cin>>x>>y;
+  adj.clear();
+  adj.resize(x+5);
+  //ll sum=0;
+  while(y--)
+  {
+   	ll a,b,c;
+   	cin>>a>>b>>c;
+   	adj[a].pb({c,b});
+   	adj[b].pb({c,a});
+  }
+  cout<<prim()<<endl;
 	return 0;
 }
