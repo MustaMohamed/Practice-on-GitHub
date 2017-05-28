@@ -8,7 +8,7 @@ a {
 	text-decoration: none; 
 }
 .header {
-	height: 80vh; width: 100vw;
+	height: 80vh; width: 98.8vw;
 	background: url('images/banner.jpg');
 	background-attachment: fixed;
 	background-size: cover;
@@ -53,5 +53,46 @@ a {
 }
 
 .welcome h3 {
-	padding: 3em 0 0 26%;
+	padding: 3em 0 0 25%;
+}
+
+/********************************/
+
+.hero {
+	height: 50vh; width: 98.8vw;
+	background-color: #F6FAE8;
+}
+.hero li {
+	display: inline-block;
+	max-width: 25%;
+	margin: 5% 0 0 6%;
+}
+.hero .one, .two {
+	border-right: 1px solid #178CA6;
+}
+.hero h1 {
+	color: #005F97;
+	font-weight: 200;
+	letter-spacing: .05em;
+	line-height: 1.5em;
+}
+.hero p {
+	font-family: "Courier New", Courier, monospace;
+	color: #B8B6A6;
+	margin-top: 10%;
+	margin-bottom: 7%;
+	font-weight: 200;
+	letter-spacing: .05em;
+	line-height: 1.5em;
+}
+.hero a{
+	font-family: Alial;
+	padding: 3% 5%;
+	color: #F6FAE8;
+	background-color: #005F97;
+	border-radius: 3px;
+}
+.hero a:hover {
+	background-color: #199EC7;
+	transition: 0.7s;
 }
