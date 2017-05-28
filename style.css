@@ -61,7 +61,7 @@ a {
 /********************************/
 
 .hero {
-	height: 55vh; width: 98.8vw;
+	height: 60vh; width: 98.8vw;
 	background-color: #F6FAE8;
 }
 .hero li {
@@ -189,7 +189,7 @@ a {
 }
 
 .nunc a{
-	font-family: Alial;
+	font-family: Arial;
 	padding: 3% 5%;
 	color: #F6FAE8;
 	background-color: #005F97;
