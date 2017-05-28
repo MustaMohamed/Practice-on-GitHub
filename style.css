@@ -1,0 +1,27 @@
+* {
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	font-family: Tahoma, Arial;
+}
+
+a {
+	text-decoration: none;
+}
+.header {
+	height: 70vh; width: 100vw;
+}
+.logo {
+	float: left;
+	margin: 5% 5%;
+	letter-spacing: 3px;
+}
+.logo a {
+	text-decoration: none;
+}
+.nav-bar {
+}
+.nav-bar li {
+	display: inline-block;
+	float: right;
+	margin: 5% 10% 0% 0%;
+}
