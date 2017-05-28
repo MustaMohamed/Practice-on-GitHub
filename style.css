@@ -46,20 +46,22 @@ a {
 	color: #F6FAE8;
 	font-family: "Courier New", Courier, monospace;
 	font-weight: 200;
+	text-align: center;
 
 }
 .welcome h1 {
-	padding: 10em 0 0 37%;
+	padding: 5em 0 0 0;
+	font-size: 300%;
 }
 
 .welcome h3 {
-	padding: 3em 0 0 25%;
+	padding: 3em 0 0 0;
 }
 
 /********************************/
 
 .hero {
-	height: 50vh; width: 98.8vw;
+	height: 55vh; width: 98.8vw;
 	background-color: #F6FAE8;
 }
 .hero li {
@@ -95,4 +97,48 @@ a {
 .hero a:hover {
 	background-color: #199EC7;
 	transition: 0.7s;
+}
+/****************/
+
+.ipsum {
+	background: #5385c1;
+	color: #bacee6;
+	height: 100vh;
+}
+.ipsum h1, h3 {
+	text-align: center;
+}
+.ipsum h1 {
+	padding-top: 5%;
+	font-size: 400%;
+	font-weight: 200;
+	color: #fff;
+}
+.ipsum h3 {
+	margin-top: 2%;
+	color: #bacee6;
+}
+.im-one h1, .im-two h1, .im-three h1, .im-four h1 {
+	font-size: 200%;
+	font-weight: 200;
+	color: #fff;
+}
+.im-one h2, .im-two h2, .im-three h2, .im-four h2 {
+	font-size: 150%;
+	font-weight: 200;
+	color: #bacee6;
+	margin-top: 5%;
+}
+.ipsum .im-one ,.im-two, .im-three, .im-four{
+	height: 55%;
+	width: 17%;
+	border: 1px solid #C8CDD2;
+	text-align: center;
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+.ipsum .im-one img,.im-two img, .im-three img, .im-four img{
+	border-radius: 50%;
+	margin-top: 15%;
 }
