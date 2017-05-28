@@ -140,5 +140,62 @@ a {
 }
 .ipsum .im-one img,.im-two img, .im-three img, .im-four img{
 	border-radius: 50%;
-	margin-top: 15%;
+}
+/*************************/
+
+.nunc {
+	background: #fff;
+	color: #bacee6;
+	height: 100vh;
+}
+.nunc h1, h3 {
+	text-align: center;
+}
+.nunc h1 {
+	padding-top: 5%;
+	font-size: 400%;
+	font-weight: 100;
+	color: #5385c1;
+}
+.nunc h3 {
+	margin-top: 2%;
+	color: #bbb;
+}
+
+.nunc-one, .nunc-two {
+	display: inline-block;
+	width: 35%;
+	margin: 3% 7% 5% 5%;
+}
+.nunc-one img, .nunc-two img {
+	max-width: 130%;
+	border-radius: 1%;
+}
+
+.nunc-one h2, .nunc-two h2 {
+	color: #5385c1;
+	letter-spacing: 0.1em;
+	margin-top: 3%;
+}
+
+.nunc p {
+	font-family: "Courier New", Courier, monospace;
+	color: #B8B6A6;
+	margin-top: 7%;
+	margin-bottom: 7%;
+	font-weight: 200;
+	letter-spacing: .05em;
+	line-height: 1.5em;
+}
+
+.nunc a{
+	font-family: Alial;
+	padding: 3% 5%;
+	color: #F6FAE8;
+	background-color: #005F97;
+	border-radius: 3px;
+}
+.nunc a:hover {
+	background-color: #199EC7;
+	transition: 0.7s;
 }
