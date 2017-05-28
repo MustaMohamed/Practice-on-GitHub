@@ -42,7 +42,16 @@ a {
 	float: right;
 	margin: 5% 10% 0% 0%;
 }
-.welcome {
-	color: #E0E4CC;
-	margin-top: 50%;
+.welcome h1, h3 {
+	color: #F6FAE8;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 200;
+
+}
+.welcome h1 {
+	padding: 10em 0 0 37%;
+}
+
+.welcome h3 {
+	padding: 3em 0 0 26%;
 }
